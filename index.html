@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joyeux anniversaire Sitirath ❤️</title>
 
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .carte {
+      width: 85%;
+      max-width: 500px;
+      padding: 35px 25px;
+      background: rgba(255,255,255,0.18);
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+      backdrop-filter: blur(8px);
+    }
+
+    h1 {
+      font-size: 38px;
+      margin-bottom: 20px;
+    }
+
+    .coeur {
+      font-size: 55px;
+      animation: battre 1s infinite;
+    }
+
+    p {
+      font-size: 19px;
+      line-height: 1.7;
+    }
+
+    .signature {
+      margin-top: 25px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    @keyframes battre {
+      50% {
+        transform: scale(1.2);
+      }
+    }
+
+    .etoile {
+      position: fixed;
+      top: -20px;
+      font-size: 25px;
+      animation: tomber 6s linear infinite;
+    }
+
+    @keyframes tomber {
+      to {
+        transform: translateY(110vh) rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="carte">
+    <div class="coeur">❤️</div>
+
+    <h1>Joyeux anniversaire Sitirath 🎂</h1>
+
+    <p>
+      En ce jour tu es née, et avec toi est née
+      la joie, la gentillesse et la force.
+    </p>
+
+    <p>
+      Que chaque jour de cette nouvelle année
+      soit un cadeau de plus pour toi.
+    </p>
+
+    <p>
+      Tu mérites le meilleur, parce que toi-même
+      tu es le meilleur. ❤️
+    </p>
+
+    <div class="signature">
+      Joyeux anniversaire ma reine 👑❤️
+    </div>
+  </div>
+
+  <div class="etoile" style="left:10%; animation-delay:0s;">❤️</div>
+  <div class="etoile" style="left:30%; animation-delay:2s;">✨</div>
+  <div class="etoile" style="left:55%; animation-delay:4s;">💖</div>
+  <div class="etoile" style="left:80%; animation-delay:1s;">✨</div>
+
+</body>
+      </html>
